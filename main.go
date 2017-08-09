@@ -27,7 +27,7 @@ func main() {
 		Hostname    string
 		Port        int
 		Secure      bool
-		Certificate Certificate `mapstructure:",squash",hcl:"certificate,squash"`
+		Certificate []Certificate
 	}
 
 	type HTTPServers struct {

@@ -1,4 +1,4 @@
-server {
+server  {
 	    hostname = "blah"
 		port =1223
 		secure =true
@@ -8,7 +8,7 @@ server {
 			wss =  true
 		}	
 	}
-server {
+server   {
 	    hostname = "blahblah"
 		port =1
 		}
